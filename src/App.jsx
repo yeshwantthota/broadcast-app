@@ -8,7 +8,7 @@ function App() {
   <ChatProvider>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/:userId' element={<Userpage/>}/>
+        <Route path='/' element={<Userpage/>}/>
       </Routes>
     </ChatProvider>
   )
